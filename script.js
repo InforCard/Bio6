@@ -5,7 +5,7 @@ const primaryBtn = document.querySelector(".primary-btn");
 
 primaryBtn.addEventListener("click", () => {
   window.scrollTo({
-    top: document.querySelector(".menu").offsetTop,
+    top: document.querySelector(".contact").offsetTop,
     behavior: "smooth"
   });
 });
